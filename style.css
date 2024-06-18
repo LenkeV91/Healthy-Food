@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(pizza.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+  color:white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.navbar ul li{
+display: inline-block;
+padding: 18px;
+text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 4px;
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px rgb(5, 37, 28);
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color:  rgb(9, 63, 49);
+    border-radius: 4px;
+}
+
+.content{
+    position: absolute;
+    color: black;
+    top: 40%;
+    left: 50%;
+}
+
+.content h3{
+    color:rgb(77, 17, 17);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: -40%;
+    padding: 10px;
+}
+
+.content h1{
+    margin-left: -20px;
+    font-size: 50px;
+    color:rgb(77, 17, 17);
+}
+
+.content p{
+	margin-left: -250px;
+    color:rgb(77, 17, 17);
+    font-size: 20px;
+    font-weight:600;
+}
+   
+
+.search{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 42%;
+}
+
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 31%;
+    margin-left:49%;
+    border-radius: 4px;
+}
+
+.submit a{
+text-decoration: none;
+color: black;
+padding: 12px 25px;
+background-color: orangered;
+text-align: center;
+}
